@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/help_t"
+        android:textAllCaps="false"
+        android:textColor="@color/red"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:text="@string/help_c"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textAllCaps="false"
+        android:textColor="@color/gold"
+        android:id="@+id/abt1"
+        android:textSize="27sp"
+        android:text="@string/help_jcgx_e"/>
+    <!-- This is Updata Button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:textSize="27sp"
+        android:textColor="@color/About_color"
+        android:id="@+id/abt2"
+        android:text="Get BETA Version"/>
+</LinearLayout>

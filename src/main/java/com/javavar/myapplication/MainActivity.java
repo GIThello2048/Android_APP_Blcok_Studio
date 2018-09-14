@@ -6,25 +6,29 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * @author GIThello2048
+ * @version 1.0.0
+ */
 public class MainActivity extends AppCompatActivity {
-    private Button bt1;
-    private com.javavar.myapplication.Log.Log log = new com.javavar.myapplication.Log.Log();
-    private static final String TAG = "[MainActiviy]";
+    Button bt1,bt2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        System.gc();
-        log.d(TAG,"App is Running!");
-        click();
-    }
-    public void click(){
         bt1 = (Button) findViewById(R.id.bt1);
+        bt2 = (Button) findViewById(R.id.bt2);
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,AboutStudioActivity.class);
-                log.v(TAG,"Go to About!");
+                startActivity(intent);
+            }
+        });
+        bt2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,SettingActivity.class);
                 startActivity(intent);
             }
         });

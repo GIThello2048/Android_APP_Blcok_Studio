@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">TestApp</string>
     <string name="bt1_E">About Block Studio</string>
+    <string name="help_t">This is a BETA Version!\nVersion:1.0.0.1</string>
+    <string name="help_c">
+        Welcome use our App!MineCraft Block Studio is a make MineCraft Items place.\n
+        Welcome Join us ! Use QQ!\n
+        If you found a Bug\nplease send an email to (2998378038@qq.com)!
+    </string>
+    <string name="help_jcgx_e">Check for updata!</string>
+    <string name="setting_e">Settings</string>
 </resources>
