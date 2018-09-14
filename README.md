@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # **Android APP Blcok Studio**
 ## *更新日志(Updata Log)*
  Version *1.0.0.2*(**BETA**)<br>
@@ -16,4 +15,3 @@
  Version *1.0.0.1*(**BETA**)
   1.上传了代码.
   2.增加了About栏目，目还没有写好 :)
->>>>>>> 22c5b8e8621bf13245b12ad9b8615b3fa5d13e89
