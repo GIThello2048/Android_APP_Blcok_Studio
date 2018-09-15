@@ -3,8 +3,10 @@ package com.javavar.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 /**
  * @author GIThello2048
@@ -22,14 +24,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,AboutStudioActivity.class);
-                startActivity(intent);
+                try {
+                    startActivity(intent);
+                } catch (Exception e){
+                    e.printStackTrace();
+                    Log.e("[Main Activity]", "onClick Erro!");
+                    Toast.makeText(MainActivity.this,"App has a Bug!",Toast.LENGTH_SHORT).show();
+                }
             }
         });
         bt2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SettingActivity.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(MainActivity.this,SettingActivity.class);
+                startActivity(intent1);
             }
         });
     }
