@@ -9,5 +9,6 @@
   2.增加了About栏目，目还没有写好 :)<br>
   3.开发了H
 ## *说明*
-  1.本APP开源,目前来说,本APP就只有这一个下载地址.
-  2.目前的计划请到 *project* 里去看哦!
+  1.本APP开源,目前来说,本APP就只有这一个下载地址.<br>
+  2.目前的计划请到 *project* 里去看哦!<br>
+  3.点击[下载区](https://github.com/GIThello2048/Android_APP_Blcok_Studio/releases/)下载
